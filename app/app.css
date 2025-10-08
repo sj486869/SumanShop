@@ -1,0 +1,17 @@
+/* Additional app-wide styles: gradient backgrounds and 3D effects */
+
+.bg-animated-gradient {
+  background: linear-gradient(-45deg, #1f1d47, #342864, #3b1c32, #16204d);
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.depth-3d {
+  transform: perspective(1000px) translateZ(0);
+}
